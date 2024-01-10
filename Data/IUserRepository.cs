@@ -9,7 +9,7 @@ namespace DotnetAPI.data
         public void RemoveEntity<T>(T entityToAdd);
         public IEnumerable<User> GetUsers();
         public User GetSingleUser(int userId);
-        public IEnumerable<User> GetActiveUsers(bool status);
+        public IEnumerable<User> GetActiveUsers(bool status);   
         public UserSalary GetSingleUserSalary(int userId);
         public UserJobInfo GetSingleUserJobInfo(int userId);
 

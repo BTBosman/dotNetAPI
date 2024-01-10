@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "rh8cXdRu009KHYykdf9CPEYQXMn2hZoDjmHCGHaFlRa8LqAyWoe03gf+XhEPMBQJJ0kEIWRIDJjMdIanJcsWBw==",
+  "dgSpecHash": "6oUfJSSbUUFai5Mkw6rQYmtyBQld6i2g1WpVstSE5K4jNmXr4YAfMSmGVNRvxOsqzhHw0tAv5I2Oul0R+GiHTQ==",
   "success": true,
-  "projectFilePath": "/Users/buhlebenkosibosman/Documents/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj",
+  "projectFilePath": "/Users/buhlebenkosibosman/Documents/Code/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj",
   "expectedPackageFiles": [
     "/Users/buhlebenkosibosman/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/buhlebenkosibosman/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/buhlebenkosibosman/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/buhlebenkosibosman/.nuget/packages/dapper/2.1.21/dapper.2.1.21.nupkg.sha512",
+    "/Users/buhlebenkosibosman/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.0-preview.2.22153.2/microsoft.aspnetcore.authentication.jwtbearer.7.0.0-preview.2.22153.2.nupkg.sha512",
     "/Users/buhlebenkosibosman/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "/Users/buhlebenkosibosman/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/buhlebenkosibosman/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

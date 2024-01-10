@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/buhlebenkosibosman/Documents/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj": {}
+    "/Users/buhlebenkosibosman/Documents/Code/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj": {}
   },
   "projects": {
-    "/Users/buhlebenkosibosman/Documents/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj": {
+    "/Users/buhlebenkosibosman/Documents/Code/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/buhlebenkosibosman/Documents/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj",
+        "projectUniqueName": "/Users/buhlebenkosibosman/Documents/Code/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj",
         "projectName": "DotnetAPI",
-        "projectPath": "/Users/buhlebenkosibosman/Documents/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj",
+        "projectPath": "/Users/buhlebenkosibosman/Documents/Code/c#/dotnet-course-code/DotnetAPI/dotNetAPI/DotnetAPI.csproj",
         "packagesPath": "/Users/buhlebenkosibosman/.nuget/packages/",
-        "outputPath": "/Users/buhlebenkosibosman/Documents/c#/dotnet-course-code/DotnetAPI/dotNetAPI/obj/",
+        "outputPath": "/Users/buhlebenkosibosman/Documents/Code/c#/dotnet-course-code/DotnetAPI/dotNetAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/buhlebenkosibosman/.nuget/NuGet/NuGet.Config"
@@ -39,6 +39,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.2, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
