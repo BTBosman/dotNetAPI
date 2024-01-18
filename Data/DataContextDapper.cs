@@ -24,6 +24,7 @@ namespace DotnetAPI.data
             IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("defaultConnection"));
             return dbConnection.QuerySingle<T>(sql);
         }
+        
 
         public bool ExecuteSql(string sql) 
         {
@@ -56,6 +57,18 @@ namespace DotnetAPI.data
         {
             IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("defaultConnection"));
             return dbConnection.Execute(sql);
+        }
+
+        public IEnumerable<T> LoadDataWithParameters<T>(string sql, DynamicParameters parameters)
+        {
+            IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("defaultConnection"));
+            return dbConnection.Query<T>(sql, parameters);
+        }
+
+        public T LoadDataSingleWithParameters<T>(string sql, DynamicParameters parameters)
+        {
+            IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("defaultConnection"));
+            return dbConnection.QuerySingle<T>(sql, parameters);
         }
     }
 }
